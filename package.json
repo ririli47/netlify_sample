@@ -1,0 +1,14 @@
+{
+    "name": "hello-netlify-functions",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "moment": "^2.22.2",
+        "netlify-lambda": "^4.0.0"
+    },
+    "scripts": {
+        "build": "netlify-lambda build src/",
+        "serve": "netlify-lambda serve src/"
+    }
+}
